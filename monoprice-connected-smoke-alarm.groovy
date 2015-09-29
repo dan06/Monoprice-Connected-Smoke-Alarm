@@ -27,7 +27,7 @@ metadata {
 	// UI tile definitions
 	tiles {
 		standardTile("smoke", "device.smoke", width: 2, height: 2) {
-			state "clear", label: 'Clear', icon: "st.alarm.smoke.clear", backgroundColor: "#1fff1f"
+			state "clear", label: 'Clear', icon: "st.alarm.smoke.clear", backgroundColor: "#79b821"
 			state "detected", label: 'Smoke', icon: "st.alarm.smoke.smoke", backgroundColor: "#ff1f1f"
 		}
         valueTile("battery", "device.battery", inactiveLabel: false, decoration: "flat") {
